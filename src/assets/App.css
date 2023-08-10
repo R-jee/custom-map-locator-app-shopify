@@ -1,1 +1,78 @@
+.header-navigation .Polaris-Button--plain svg {
+  fill: none !important;
+}
 
+.header-navigation .Polaris-Button--plain {
+  color: var(--p-text);
+}
+
+.header-navigation .Polaris-ButtonGroup {
+  margin-top: 0;
+}
+
+.no-locations .Polaris-Card {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.no-locations .Polaris-Card .Polaris-Card__Footer {
+  justify-content: center;
+}
+
+.map_marker {
+  position: relative;
+}
+
+.map_marker svg {
+  position: absolute;
+  top: -40px;
+  left: -15px;
+}
+
+.maker-popup {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background: white;
+  transform: translate(-50%, -50%);
+  top: -120px;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 7px 1px rgb(0 0 0 / 30%);
+  z-index: 111;
+}
+
+.maker-popup .marker-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.maker-popup .marker-details {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.import-form button svg {
+  fill: none !important;
+}
+
+.drog-drop-form {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.drog-drop-form .Polaris-Button--primary {
+  background: #3C81F6;
+}
+
+.center {
+  text-align: center;
+}
